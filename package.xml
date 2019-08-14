@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Formilla_LiveChat</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL2</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Install Formilla Live Chat for your Magento store in just a few minutes.</summary>
+    <description>Formilla brings live chat, offline email, and help desk features to your Magento store.&#xD;
+&#xD;
+We offer free and premium services for businesses of all sizes.  </description>
+    <notes>Initial version of the Formilla Live Chat Magento extension.  Simply installs a code snippet to your Magento store to make live chat available across your website.</notes>
+    <authors><author><name>Formilla</name><user>Formilla</user><email>sales@formilla.com</email></author></authors>
+    <date>2014-06-01</date>
+    <time>19:26:01</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Formilla_LiveChat.xml" hash="6d20b34fee9ee99952dd9aa604515ed5"/></dir></target><target name="magecommunity"><dir name="Formilla"><dir name="LiveChat"><dir name="Block"><file name="Jsheader.php" hash="4afc539010f78440ce4d2900e3edac5d"/></dir><dir name="Helper"><file name="Data.php" hash="3eaae811909feb04bd9393b619983e24"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d80d4f0572f2994a420474542ce31632"/><file name="config.xml" hash="bd3f4995e502c6369cc2b1d104b6df15"/><file name="system.xml" hash="8bd0527be5a478384d3a4c82c7b7f41d"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="formillalivechat.xml" hash="db780b36a1607480169cfa5f34391721"/></dir><dir name="template"><dir name="formillalivechat"><file name="js.phtml" hash="90db46c9c91191f41867c516cc4a2589"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
