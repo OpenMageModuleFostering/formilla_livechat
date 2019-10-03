@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Formilla_LiveChat",
+    "name": "OpenMageModuleFostering\/Formilla_LiveChat",
     "type": "magento-module",
     "license": "GPL2",
     "homepage": "",
     "description": "Install Formilla Live Chat for your Magento store in just a few minutes.",
     "authors": [
-    {
-        "name": "Formilla",
-        "email": "sales@formilla.com"
-    }
-],
+        {
+            "name": "Formilla",
+            "email": "sales@formilla.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
